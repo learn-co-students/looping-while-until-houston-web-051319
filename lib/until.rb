@@ -1,8 +1,10 @@
-def using_until
-  levitation_force = 6
-  until levitation_force == 10
+def using_until 
+  x = 0
+  until x == 10
     puts "Wingardium Leviosa"
-   levitation_force + 1
+   x += 1
   end
+end
+looping_string = using_until
 
 
